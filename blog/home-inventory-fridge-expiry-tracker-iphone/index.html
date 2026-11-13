@@ -1,0 +1,118 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><script async src="https://www.googletagmanager.com/gtag/js?id=G-FJGRNJFB15"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FJGRNJFB15");document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a)return;var h=a.href;if(/apps\.apple\.com\/|testflight\.apple\.com\//.test(h)){gtag("event","download_click",{link_url:h,link_text:(a.textContent||"").trim().slice(0,60)});}},true);</script>
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark">
+<title>iPhone Home Inventory and Fridge Expiration Tracker | Deepstash</title><meta name="description" content="Meet Deepstash, an iPhone app I made to track what you have, where it is, how much is left, and when it expires. No account needed.">
+<link rel="canonical" href="https://sona-orbit.github.io/deepstash/blog/home-inventory-fridge-expiry-tracker-iphone/"><link rel="alternate" hreflang="zh-Hant" href="https://sona-orbit.github.io/deepstash/zh-Hant/blog/home-inventory-fridge-expiry-tracker-iphone/"><link rel="alternate" hreflang="zh-Hans" href="https://sona-orbit.github.io/deepstash/zh-Hans/blog/home-inventory-fridge-expiry-tracker-iphone/"><link rel="alternate" hreflang="en" href="https://sona-orbit.github.io/deepstash/blog/home-inventory-fridge-expiry-tracker-iphone/"><link rel="alternate" hreflang="x-default" href="https://sona-orbit.github.io/deepstash/blog/home-inventory-fridge-expiry-tracker-iphone/">
+<meta property="og:type" content="article"><meta property="og:title" content="iPhone Home Inventory and Fridge Expiration Tracker"><meta property="og:description" content="Meet Deepstash, an iPhone app I made to track what you have, where it is, how much is left, and when it expires. No account needed."><meta property="og:url" content="https://sona-orbit.github.io/deepstash/blog/home-inventory-fridge-expiry-tracker-iphone/"><meta property="og:image" content="https://sona-orbit.github.io/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/hero.jpg">
+<link rel="icon" href="/deepstash/assets/icon-180.png"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "iPhone Home Inventory and Fridge Expiration Tracker", "description": "Meet Deepstash, an iPhone app I made to track what you have, where it is, how much is left, and when it expires. No account needed.", "inLanguage": "en", "datePublished": "2026-11-14", "dateModified": "2026-11-14", "mainEntityOfPage": "https://sona-orbit.github.io/deepstash/blog/home-inventory-fridge-expiry-tracker-iphone/", "image": "https://sona-orbit.github.io/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/hero.jpg", "author": {"@type": "Person", "name": "Sona Orbit", "jobTitle": "Independent developer"}, "publisher": {"@type": "Organization", "name": "Sona Orbit"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Do I need an account? Where is my data stored?", "acceptedAnswer": {"@type": "Answer", "text": "No account is needed. Your items, photos, and memories stay in the app on your iPhone. I don't have a server that can see your data. When you scan a barcode, the app sends only the barcode number to Open Food Facts, Open Library, or Google Books to look up a name."}}, {"@type": "Question", "name": "What if Deepstash reads an expiration date incorrectly?", "acceptedAnswer": {"@type": "Answer", "text": "A date it finds is marked “Please Confirm,” and you can change it before saving. If the package has two dates, Deepstash chooses the later one. You'll need to enter dates that show only a year and month."}}, {"@type": "Question", "name": "Can I use Deepstash without AI?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Photo background removal, barcode scanning, expiration dates, all three views, and asking Lumi to find things don't require AI. Turning on AI adds suggested names, a look at what's in a space, synonym-based search, and help writing memories."}}, {"@type": "Question", "name": "Can my family and I manage the same fridge?", "acceptedAnswer": {"@type": "Answer", "text": "Not yet. Deepstash doesn't have iCloud sync or family sharing. The data stays on one iPhone."}}, {"@type": "Question", "name": "When can I download Deepstash?", "acceptedAnswer": {"@type": "Answer", "text": "Deepstash is currently in App Store review and is not available yet. Once it's released, you can go to the App Store from the Deepstash website."}}]}</script><style>
+:root{--bg:#f7f3ea;--soft:#ffffff;--ink:#26232b;--muted:#6b6672;--line:rgba(0,0,0,.09);--accent:#e4572e}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1916;--soft:#26221d;--ink:#ece9f0;--muted:#a7a2ae;--line:rgba(255,255,255,.12);--accent:#f08a63}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.75 -apple-system,BlinkMacSystemFont,"PingFang TC","PingFang SC","Noto Sans TC","Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}img{max-width:100%;height:auto}
+.top{max-width:760px;margin:0 auto;padding:16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.top .brand{display:flex;align-items:center;gap:8px;font-weight:700;color:var(--ink);text-decoration:none}.top .brand img{width:30px;height:30px;border-radius:8px}
+.top nav{margin-left:auto;display:flex;gap:16px;font-size:15px}.top nav a{text-decoration:none;color:var(--muted)}.top nav a.on{color:var(--accent);font-weight:600}
+main{max-width:760px;margin:0 auto;padding:8px 16px 48px}
+.eyebrow{color:var(--accent);font-size:13px;font-weight:600;letter-spacing:.04em;margin:8px 0 0}
+h1{font-size:clamp(26px,5vw,36px);line-height:1.3;margin:6px 0 12px}h2{font-size:23px;line-height:1.4;margin:40px 0 12px}h3{font-size:19px;margin:26px 0 8px}
+.intro{font-size:18px;color:var(--muted)}.meta{color:var(--muted);font-size:14px}
+.langs{font-size:14px;display:flex;gap:12px;flex-wrap:wrap;margin:6px 0 18px}.langs a{text-decoration:none}.langs b{color:var(--ink)}
+figure{margin:22px 0}figure img{display:block;border-radius:18px;width:100%}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:20px 0}.toc ol{margin:6px 0 0;padding-left:22px}
+.blog-note{background:var(--soft);border-left:4px solid var(--accent);border-radius:10px;padding:12px 16px;font-size:15px;color:var(--muted)}
+.blog-table{width:100%;border-collapse:collapse;font-size:15px;display:block;overflow-x:auto}.blog-table th,.blog-table td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left;min-width:110px}
+.blog-table th{background:var(--soft)}
+.blog-faq h3{font-size:17px}blockquote{margin:16px 0;padding:10px 16px;border-left:4px solid var(--line);color:var(--muted)}
+.cta{background:var(--soft);border:1px solid var(--line);border-radius:20px;padding:22px;margin:40px 0 20px;text-align:center}.cta h2{margin:0 0 4px}
+.button{display:inline-block;margin-top:10px;padding:12px 22px;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+.cards{display:grid;gap:18px;margin-top:20px}.card{display:grid;grid-template-columns:200px 1fr;gap:16px;background:var(--soft);border:1px solid var(--line);border-radius:18px;overflow:hidden;color:var(--ink);text-decoration:none}
+.card img{width:100%;height:100%;object-fit:cover}.card div{padding:14px 16px 16px 0}.card h2{font-size:19px;margin:4px 0 6px}.card p{margin:0 0 8px;color:var(--muted);font-size:15px}.card strong{color:var(--accent);font-size:15px}
+@media (max-width:600px){.card{grid-template-columns:1fr}.card div{padding:0 16px 16px}}
+footer{max-width:760px;margin:0 auto;padding:20px 16px 40px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;gap:14px;flex-wrap:wrap}footer a{color:var(--muted)}
+</style></head><body>
+<header class="top"><a class="brand" href="/deepstash/"><img src="/deepstash/assets/icon-180.png" alt="">Deepstash</a>
+<nav><a href="/deepstash/">Home</a><a class="on" href="/deepstash/blog/">Articles</a></nav></header>
+<main><p class="eyebrow">Deepstash · Articles</p><h1>iPhone Home Inventory and Fridge Expiration Tracker</h1><p class="intro">The hard part of tracking what you have at home is entering every new item. I made Deepstash (深藏) so you can start with a photo. The app removes the background, scans barcodes in the same camera view, and reads expiration dates on packaging for you to confirm. It can notify you before something expires. You don't need an account. Your items, photos, and memories stay on your iPhone. There is no iCloud sync or family sharing yet. I'll explain those limits below.</p><p class="meta"><time datetime="2026-11-14">2026-11-14</time> · About 6 min read</p><p class="langs"><a href="https://sona-orbit.github.io/deepstash/zh-Hant/blog/home-inventory-fridge-expiry-tracker-iphone/">繁體中文</a><a href="https://sona-orbit.github.io/deepstash/zh-Hans/blog/home-inventory-fridge-expiry-tracker-iphone/">简体中文</a><b>English</b></p><figure><img src="/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/hero.webp" alt="A round red-orange anglerfish mascot stands in front of an open fridge, lighting up the food on its shelves" width="600" height="400" decoding="async"></figure><nav class="toc"><strong>Contents</strong><ol><li><a href="#part-1">First, how Deepstash differs from a spreadsheet</a></li><li><a href="#part-2">After grocery shopping: photos, barcodes, and continuous scanning</a></li><li><a href="#part-3">Expiration dates on packaging</a></li><li><a href="#part-4">Beyond the fridge: the 800 storage closet, nested spaces, and memories</a></li><li><a href="#part-5">Ask Lumi when you can't find something</a></li><li><a href="#part-6">Current limitations</a></li><li><a href="#part-7">Frequently asked questions</a></li></ol></nav><article><p class="blog-note">I'm Sona Orbit, the solo developer of Deepstash (深藏). Deepstash is currently in App Store review and is not available yet. The features and button names here reflect version 1.0 as submitted for review. I checked them against the app's source code and the <a href="/deepstash/">Deepstash website</a> on November 14, 2026.</p>
+
+<section id="part-1"><h2>1. First, how Deepstash differs from a spreadsheet</h2>
+<p>Many people have tried tracking what they have at home in a spreadsheet or notes app. The sticking point is usually entering each item. You have to type its name and copy the date from the package. Deepstash starts with a photo instead.</p>
+<table class="blog-table">
+<thead><tr><th>Feature</th><th>Deepstash</th><th>Spreadsheet or notes app</th></tr></thead>
+<tbody>
+<tr><td>Adding items</td><td>Removes photo backgrounds automatically; scans barcodes in the same camera view (looks up food in <a href="https://world.openfoodfacts.org/" rel="noopener">Open Food Facts</a> and books in <a href="https://openlibrary.org/" rel="noopener">Open Library</a> and Google Books); includes “Continuous Scan”</td><td>Type names, categories, and dates yourself</td></tr>
+<tr><td>Expiration dates</td><td>Reads dates on packaging when you take a photo; saves them after you confirm; sends a notification before an item expires</td><td>Read the package and enter the date yourself; set reminders separately</td></tr>
+<tr><td>Views</td><td>Switch between display, grid, and list views for the same space</td><td>Tables or text</td></tr>
+<tr><td>Finding things</td><td>Type or ask Lumi, the mascot, “Where's my passport?”</td><td>Search by keyword</td></tr>
+<tr><td>Price and account</td><td>Free to download, no account; the free version has a banner ad and lets you create 3 spaces</td><td>Depends on what you use</td></tr>
+</tbody></table>
+<p>If you only track a dozen or so things and don't mind typing, a spreadsheet may be enough. Deepstash is for keeping track of your fridge, pantry, bookshelves, and collections without typing every item.</p></section>
+
+<section id="part-2"><h2>2. After grocery shopping: photos, barcodes, and continuous scanning</h2>
+<p>Point the camera at an item and take a photo. Deepstash removes the background and saves the photo. It uses iPhone image recognition on your device, so the photo doesn't need to be uploaded. The same camera view also looks for barcodes:</p>
+<ul>
+<li><b>Food:</b> Looks up items in Open Food Facts, an open food database built by volunteers.</li>
+<li><b>Books:</b> Looks up the ISBN in Open Library first, then Google Books.</li>
+<li><b>No match:</b> Name the item once. The next time you scan that barcode, Deepstash fills in the name you chose.</li>
+</ul>
+<p>When you get home with a bag of groceries, press and hold the camera button at the bottom and choose “Continuous Scan (Add Multiple Items),” or switch to “Continuous Scan” in the camera view. Scan items one by one, then confirm them together. For online purchases, you can choose a photo or screenshot from your library, crop it, and remove the background the same way.</p>
+<figure class="blog-illus"><img src="/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/fridge-scan.webp" alt="An anglerfish mascot brings a bag of vegetables and milk to the fridge and puts the items away one by one" width="600" height="400" loading="lazy" decoding="async"></figure>
+<p>Once you've saved items, you can view each space in three ways:</p>
+<ul>
+<li><b>Display:</b> Arrange photos on a fridge, dot-grid paper, or corkboard background. Drag and resize them to remember which shelf holds what.</li>
+<li><b>Grid:</b> See items in neat rows. Select several to move together or mark as used up.</li>
+<li><b>List:</b> Check what you have and adjust quantities with plus and minus buttons. Swipe left to mark an item “Used Up,” or swipe right to move or restock it.</li>
+</ul>
+<p>The home screen shows only what needs attention today: expired items, items nearing expiration, and items running low. If you're not ready to deal with one, choose “Remind Me Tomorrow.”</p></section>
+
+<section id="part-3"><h2>3. Expiration dates on packaging</h2>
+<p>After you take a photo, Deepstash reads the packaging text on your iPhone and looks for dates. It recognizes these formats:</p>
+<ul>
+<li>Year, month, and day, such as <code>2026.12.01</code>, <code>2026年12月1日</code>, and <code>20261201</code></li>
+<li>Two-digit years, such as <code>26.12.01</code></li>
+<li>Republic of China calendar years, such as <code>115.12.01</code>, a format used on some Taiwanese products</li>
+<li>Buddhist calendar years, including the 25xx years on Thai packaging, which it converts to Gregorian years</li>
+<li>Day/month/year order, such as <code>01/12/2026</code></li>
+</ul>
+<p>A date Deepstash finds is marked “Please Confirm.” You can change it before saving. If the package has both a production date and an expiration date, Deepstash chooses the later one. Check it before you save. It currently can't read dates that have only a year and month, so you'll need to enter those yourself.</p>
+<p>Set the reminder lead time and time of day under “⚙︎ Settings › Expiration Reminders” in the top-right corner of the home screen. You can choose 1 to 30 days before expiration and select morning, noon, or evening.</p>
+<figure class="blog-illus"><img src="/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/expiry-date.webp" alt="An anglerfish mascot shines its headlamp on a carton of milk to read the date on the package" width="600" height="400" loading="lazy" decoding="async"></figure></section>
+
+<section id="part-4"><h2>4. Beyond the fridge: the 800 storage closet, nested spaces, and memories</h2>
+<p>When you add a space, you can choose from eight templates: fridge, 800 storage closet, pantry cabinet, bookshelf, wardrobe, display cabinet, medicine cabinet, and moving box. The 800 storage closet template is for a walk-in storage area near an entryway or hallway, about 80 centimeters deep, where you might keep household supplies, luggage, and seasonal items. If none fits, choose your own icon and name.</p>
+<ul>
+<li><b>Groups:</b> Organize spaces under names like “Home” or “Third Floor.” You can also skip groups. The default has just one level.</li>
+<li><b>Spaces inside spaces:</b> Put “Shirts,” “Pants,” and “Shoes” inside “Clothing.” Use “Move Into…” in the menu, or press and hold to drag one card onto another.</li>
+<li><b>Details by category:</b> Deepstash asks about expiration and storage for food, size and season for clothing, and model and warranty for electronics.</li>
+</ul>
+<p>For a mug from a trip or a gift from a friend, you can write a memory on the item's page. Add photos, a date, and a place, then save it in a collection such as “Seattle 2024.” On the same day a year later, “On This Day Last Year” appears on the home screen.</p></section>
+
+<section id="part-5"><h2>5. Ask Lumi when you can't find something</h2>
+<p>Lumi is Deepstash's anglerfish mascot, with a small light on its head. If you can't find your passport or AA batteries before heading out, type in the field at the top of the home screen or tap the microphone and ask, “Where's my passport?” or “Do I have any milk?” Lumi can tell you where an item is, how many are left, and how many days until it expires.</p>
+<p>You can use this without turning on AI. Deepstash searches names, categories, and spaces. When your iPhone supports on-device speech recognition, it processes your voice on the phone without going online.</p>
+<p>AI is optional. Turn it on under “Settings › AI” and choose one of two sources:</p>
+<ul>
+<li><b>Built-in Apple option:</b> Uses Apple Intelligence on your iPhone. It's free, and the data stays on the phone. It requires a supported iPhone and iOS 26 or later. It can't see photos, so it uses image labels and packaging text recognized on your phone to suggest names.</li>
+<li><b>Your own API key:</b> Use a service such as Gemini, Claude, or DeepSeek. The key stays in this iPhone's Keychain. Data goes directly to the service you choose, not through me. This option can look at photos to help name items.</li>
+</ul>
+<p>With AI on, Deepstash can suggest item names, organize packaging text, and point out what to eat first from your fridge. For a medicine cabinet, it only flags expired items and does not give medical advice. AI can also consider synonyms when you search with a sentence, or turn a few words you type into a memory. It generates Lumi's daily message and suggested questions on the home screen too.</p>
+<figure class="blog-illus"><img src="/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/ask-lumi.webp" alt="An anglerfish mascot uses its headlamp to search a storage room and finds a box of batteries in the corner" width="600" height="400" loading="lazy" decoding="async"></figure></section>
+
+<section id="part-6"><h2>6. Current limitations</h2>
+<p>Before you add everything in your home, here's what to know:</p>
+<ol>
+<li><b>There is no iCloud sync or family sharing.</b>Data stays in the app on this iPhone and is included when you back up your iPhone. You can also export a CSV in settings. You can recover deleted items from “Recently Deleted” within 30 days.</li>
+<li><b>Barcode databases don't have every item.</b>In my tests, Open Food Facts found international products and some Taiwanese products, but not most Taiwanese products. Fresh produce and bulk foods have no barcodes, so you'll need to name them the first time.</li>
+<li><b>Background removal depends on the photo.</b>It may leave parts of a busy background or struggle when the item and background have similar colors. If it fails, Deepstash saves the original photo instead.</li>
+<li><b>The free version has ads and limits.</b>You can create 3 top-level spaces (sections and groups don't count) and open only your 2 most recent Lumi conversations. A Google banner ad appears at the bottom of the home, spaces, and search screens. Ads are always non-personalized, and the app won't ask for tracking permission. Google still receives device and approximate location data to serve ads. See the <a href="/deepstash/privacy/">privacy policy</a> for details. Deepstash Pro has unlimited spaces and conversation history, with no ads: US$1 per week, US$3 per month, or a US$5 one-time purchase (US prices; check the App Store for prices in other regions).</li>
+</ol>
+<p>When Deepstash becomes available, try starting with one “Fridge” space. Photograph the three things you most often forget in the back. See whether the expiration reminders and swipe-left “Used Up” action fit your routine. Deepstash requires an iPhone with iOS 18 or later. Its interface supports six languages: Traditional Chinese, Simplified Chinese, Japanese, Korean, Thai, and English.</p></section>
+
+<section id="part-7"><h2>7. Frequently asked questions</h2>
+<div class="blog-faq">
+<h3>Do I need an account? Where is my data stored?</h3><p>No account is needed. Your items, photos, and memories stay in the app on your iPhone. I don't have a server that can see your data. When you scan a barcode, the app sends only the barcode number to Open Food Facts, Open Library, or Google Books to look up a name.</p>
+<h3>What if Deepstash reads an expiration date incorrectly?</h3><p>A date it finds is marked “Please Confirm,” and you can change it before saving. If the package has two dates, Deepstash chooses the later one. You'll need to enter dates that show only a year and month.</p>
+<h3>Can I use Deepstash without AI?</h3><p>Yes. Photo background removal, barcode scanning, expiration dates, all three views, and asking Lumi to find things don't require AI. Turning on AI adds suggested names, a look at what's in a space, synonym-based search, and help writing memories.</p>
+<h3>Can my family and I manage the same fridge?</h3><p>Not yet. Deepstash doesn't have iCloud sync or family sharing. The data stays on one iPhone.</p>
+<h3>When can I download Deepstash?</h3><p>Deepstash is currently in App Store review and is not available yet. Once it's released, you can go to the App Store from the Deepstash website.</p>
+</div></section></article><aside class="cta"><h2>Try Deepstash</h2><p>iPhone · Coming soon to the App Store</p><a class="button" href="https://apps.apple.com/app/id6833244834">Go to the App Store</a></aside><p><a href="/deepstash/blog/">← Back to articles</a></p></main>
+<footer><span>© Sona Orbit</span><a href="/deepstash/">Home</a><a href="/deepstash/blog/">Articles</a><a href="/deepstash/privacy/">Privacy</a><a href="/deepstash/support/">Support</a><a href="https://sona-orbit.github.io/">Sona Orbit</a></footer>
+</body></html>

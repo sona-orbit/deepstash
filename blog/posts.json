@@ -1,0 +1,23 @@
+[
+ {
+  "slug": "home-inventory-fridge-expiry-tracker-iphone",
+  "date": "2026-11-14",
+  "langs": {
+   "zh-Hant": {
+    "title": "冰箱效期提醒與居家收納：用 iPhone 拍照記下家裡的東西",
+    "desc": "牛奶過期才發現、電池買重複、護照忘了收哪？介紹我做的 iPhone App「深藏」：拍照去背存好、掃條碼、讀包裝到期日（西元、民國、佛曆）、問小燈找東西，以及目前的限制。",
+    "hero_alt": "圓圓的紅橘色安康魚吉祥物站在打開的冰箱前，頭上的小燈照著層架上的食物"
+   },
+   "zh-Hans": {
+    "title": "冰箱效期提醒与居家收纳：用 iPhone 拍照记下家里的东西",
+    "desc": "牛奶过期才发现、电池买重复、护照忘了收哪？介绍我做的 iPhone App“深藏”：拍照去背存好、扫条码、读包装到期日（西元、民国、佛历）、问小灯找东西，以及目前的限制。",
+    "hero_alt": "圆圆的红橘色安康鱼吉祥物站在打开的冰箱前，头上的小灯照著层架上的食物"
+   },
+   "en": {
+    "title": "iPhone Home Inventory and Fridge Expiration Tracker",
+    "desc": "Meet Deepstash, an iPhone app I made to track what you have, where it is, how much is left, and when it expires. No account needed.",
+    "hero_alt": "A round red-orange anglerfish mascot stands in front of an open fridge, lighting up the food on its shelves"
+   }
+  }
+ }
+]

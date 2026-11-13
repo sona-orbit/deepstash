@@ -1,0 +1,118 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><script async src="https://www.googletagmanager.com/gtag/js?id=G-FJGRNJFB15"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FJGRNJFB15");document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a)return;var h=a.href;if(/apps\.apple\.com\/|testflight\.apple\.com\//.test(h)){gtag("event","download_click",{link_url:h,link_text:(a.textContent||"").trim().slice(0,60)});}},true);</script>
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark">
+<title>冰箱效期提醒與居家收納：用 iPhone 拍照記下家裡的東西 | 深藏</title><meta name="description" content="牛奶過期才發現、電池買重複、護照忘了收哪？介紹我做的 iPhone App「深藏」：拍照去背存好、掃條碼、讀包裝到期日（西元、民國、佛曆）、問小燈找東西，以及目前的限制。">
+<link rel="canonical" href="https://sona-orbit.github.io/deepstash/zh-Hant/blog/home-inventory-fridge-expiry-tracker-iphone/"><link rel="alternate" hreflang="zh-Hant" href="https://sona-orbit.github.io/deepstash/zh-Hant/blog/home-inventory-fridge-expiry-tracker-iphone/"><link rel="alternate" hreflang="zh-Hans" href="https://sona-orbit.github.io/deepstash/zh-Hans/blog/home-inventory-fridge-expiry-tracker-iphone/"><link rel="alternate" hreflang="en" href="https://sona-orbit.github.io/deepstash/blog/home-inventory-fridge-expiry-tracker-iphone/"><link rel="alternate" hreflang="x-default" href="https://sona-orbit.github.io/deepstash/blog/home-inventory-fridge-expiry-tracker-iphone/">
+<meta property="og:type" content="article"><meta property="og:title" content="冰箱效期提醒與居家收納：用 iPhone 拍照記下家裡的東西"><meta property="og:description" content="牛奶過期才發現、電池買重複、護照忘了收哪？介紹我做的 iPhone App「深藏」：拍照去背存好、掃條碼、讀包裝到期日（西元、民國、佛曆）、問小燈找東西，以及目前的限制。"><meta property="og:url" content="https://sona-orbit.github.io/deepstash/zh-Hant/blog/home-inventory-fridge-expiry-tracker-iphone/"><meta property="og:image" content="https://sona-orbit.github.io/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/hero.jpg">
+<link rel="icon" href="/deepstash/assets/icon-180.png"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "冰箱效期提醒與居家收納：用 iPhone 拍照記下家裡的東西", "description": "牛奶過期才發現、電池買重複、護照忘了收哪？介紹我做的 iPhone App「深藏」：拍照去背存好、掃條碼、讀包裝到期日（西元、民國、佛曆）、問小燈找東西，以及目前的限制。", "inLanguage": "zh-Hant", "datePublished": "2026-11-14", "dateModified": "2026-11-14", "mainEntityOfPage": "https://sona-orbit.github.io/deepstash/zh-Hant/blog/home-inventory-fridge-expiry-tracker-iphone/", "image": "https://sona-orbit.github.io/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/hero.jpg", "author": {"@type": "Person", "name": "Sona Orbit", "jobTitle": "Independent developer"}, "publisher": {"@type": "Organization", "name": "Sona Orbit"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "zh-Hant", "mainEntity": [{"@type": "Question", "name": "深藏要註冊帳號嗎？資料存在哪？", "acceptedAnswer": {"@type": "Answer", "text": "不用帳號。物品、照片和回憶都存在你 iPhone 的 App 裡，我這邊沒有伺服器，看不到你的資料。掃條碼時只會把條碼號碼送到 Open Food Facts、Open Library 或 Google Books 查名稱。"}}, {"@type": "Question", "name": "到期日讀錯了怎麼辦？", "acceptedAnswer": {"@type": "Answer", "text": "讀到的日期會標「請確認」，存檔前可以直接改。包裝上有兩個日期時會取比較晚的那個，只印年月沒有日的要自己填。"}}, {"@type": "Question", "name": "不開 AI 能用嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以。拍照去背、條碼、到期日、三種看法、問小燈找東西都不需要 AI。開了 AI 會多出命名、看看這個空間、同義詞搜尋和寫回憶這些功能。"}}, {"@type": "Question", "name": "可以跟家人一起管同一個冰箱嗎？", "acceptedAnswer": {"@type": "Answer", "text": "目前不行。深藏還沒有 iCloud 同步與家人共用，資料只在一支 iPhone 上。"}}, {"@type": "Question", "name": "什麼時候可以下載？", "acceptedAnswer": {"@type": "Answer", "text": "深藏目前在 App Store 審核中，即將上架。上架後可以從深藏官網直接前往 App Store。"}}]}</script><style>
+:root{--bg:#f7f3ea;--soft:#ffffff;--ink:#26232b;--muted:#6b6672;--line:rgba(0,0,0,.09);--accent:#e4572e}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1916;--soft:#26221d;--ink:#ece9f0;--muted:#a7a2ae;--line:rgba(255,255,255,.12);--accent:#f08a63}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.75 -apple-system,BlinkMacSystemFont,"PingFang TC","PingFang SC","Noto Sans TC","Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}img{max-width:100%;height:auto}
+.top{max-width:760px;margin:0 auto;padding:16px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.top .brand{display:flex;align-items:center;gap:8px;font-weight:700;color:var(--ink);text-decoration:none}.top .brand img{width:30px;height:30px;border-radius:8px}
+.top nav{margin-left:auto;display:flex;gap:16px;font-size:15px}.top nav a{text-decoration:none;color:var(--muted)}.top nav a.on{color:var(--accent);font-weight:600}
+main{max-width:760px;margin:0 auto;padding:8px 16px 48px}
+.eyebrow{color:var(--accent);font-size:13px;font-weight:600;letter-spacing:.04em;margin:8px 0 0}
+h1{font-size:clamp(26px,5vw,36px);line-height:1.3;margin:6px 0 12px}h2{font-size:23px;line-height:1.4;margin:40px 0 12px}h3{font-size:19px;margin:26px 0 8px}
+.intro{font-size:18px;color:var(--muted)}.meta{color:var(--muted);font-size:14px}
+.langs{font-size:14px;display:flex;gap:12px;flex-wrap:wrap;margin:6px 0 18px}.langs a{text-decoration:none}.langs b{color:var(--ink)}
+figure{margin:22px 0}figure img{display:block;border-radius:18px;width:100%}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:20px 0}.toc ol{margin:6px 0 0;padding-left:22px}
+.blog-note{background:var(--soft);border-left:4px solid var(--accent);border-radius:10px;padding:12px 16px;font-size:15px;color:var(--muted)}
+.blog-table{width:100%;border-collapse:collapse;font-size:15px;display:block;overflow-x:auto}.blog-table th,.blog-table td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left;min-width:110px}
+.blog-table th{background:var(--soft)}
+.blog-faq h3{font-size:17px}blockquote{margin:16px 0;padding:10px 16px;border-left:4px solid var(--line);color:var(--muted)}
+.cta{background:var(--soft);border:1px solid var(--line);border-radius:20px;padding:22px;margin:40px 0 20px;text-align:center}.cta h2{margin:0 0 4px}
+.button{display:inline-block;margin-top:10px;padding:12px 22px;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+.cards{display:grid;gap:18px;margin-top:20px}.card{display:grid;grid-template-columns:200px 1fr;gap:16px;background:var(--soft);border:1px solid var(--line);border-radius:18px;overflow:hidden;color:var(--ink);text-decoration:none}
+.card img{width:100%;height:100%;object-fit:cover}.card div{padding:14px 16px 16px 0}.card h2{font-size:19px;margin:4px 0 6px}.card p{margin:0 0 8px;color:var(--muted);font-size:15px}.card strong{color:var(--accent);font-size:15px}
+@media (max-width:600px){.card{grid-template-columns:1fr}.card div{padding:0 16px 16px}}
+footer{max-width:760px;margin:0 auto;padding:20px 16px 40px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;gap:14px;flex-wrap:wrap}footer a{color:var(--muted)}
+</style></head><body>
+<header class="top"><a class="brand" href="/deepstash/zh-Hant/"><img src="/deepstash/assets/icon-180.png" alt="">深藏</a>
+<nav><a href="/deepstash/zh-Hant/">首頁</a><a class="on" href="/deepstash/zh-Hant/blog/">文章</a></nav></header>
+<main><p class="eyebrow">深藏 · 文章</p><h1>冰箱效期提醒與居家收納：用 iPhone 拍照記下家裡的東西</h1><p class="intro">想記住家裡有什麼，最難的不是記，而是每買一次都要打字建檔。我做的 iPhone App「深藏」把建檔改成拍一張照：照片自動去背存好，同一個畫面會認條碼，包裝上的到期日也會讀出來給你確認，快到期就用通知提醒。不用註冊帳號，物品、照片和回憶都存在你的 iPhone 裡。目前還沒有 iCloud 同步，也不能和家人共用，這篇最後會說清楚。</p><p class="meta"><time datetime="2026-11-14">2026-11-14</time> · 約 6 分鐘閱讀</p><p class="langs"><b>繁體中文</b><a href="https://sona-orbit.github.io/deepstash/zh-Hans/blog/home-inventory-fridge-expiry-tracker-iphone/">简体中文</a><a href="https://sona-orbit.github.io/deepstash/blog/home-inventory-fridge-expiry-tracker-iphone/">English</a></p><figure><img src="/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/hero.webp" alt="圓圓的紅橘色安康魚吉祥物站在打開的冰箱前，頭上的小燈照著層架上的食物" width="600" height="400" decoding="async"></figure><nav class="toc"><strong>文章目錄</strong><ol><li><a href="#part-1">先看結論：深藏和試算表差在哪</a></li><li><a href="#part-2">買菜回家：拍照、掃條碼、連續掃描</a></li><li><a href="#part-3">包裝上的到期日：西元、民國、佛曆都認得</a></li><li><a href="#part-4">不只冰箱：800庫、地方裡的地方、物品的回憶</a></li><li><a href="#part-5">找不到東西時，問小燈</a></li><li><a href="#part-6">目前的限制</a></li><li><a href="#part-7">常見問題</a></li></ol></nav><article><p class="blog-note">我是 Sona Orbit，一個人開發深藏（Deepstash）的獨立開發者。深藏目前在 App Store 審核中，即將上架。文中的功能與按鈕名稱以送審中的 1.0 版為準，2026 年 11 月 14 日對照 App 原始碼與<a href="/deepstash/zh-Hant/">深藏官網</a>查證。</p>
+
+<section id="part-1"><h2>1. 先看結論：深藏和試算表差在哪</h2>
+<p>很多人試過用試算表或備忘錄記家裡的庫存，卡住的地方通常是建檔：每樣東西都要自己打品名、看包裝抄日期。深藏把這一步改成拍照。</p>
+<table class="blog-table">
+<thead><tr><th>比較項目</th><th>深藏</th><th>試算表、備忘錄</th></tr></thead>
+<tbody>
+<tr><td>建檔</td><td>拍照自動去背；同一個相機畫面認條碼（食品查 <a href="https://world.openfoodfacts.org/" rel="noopener">Open Food Facts</a>，書查 <a href="https://openlibrary.org/" rel="noopener">Open Library</a> 與 Google Books）；有「連續掃描」</td><td>自己打品名、分類、日期</td></tr>
+<tr><td>到期日</td><td>拍照時讀包裝上的日期，你確認後存下；到期前用通知提醒</td><td>自己看包裝輸入，提醒要另外設</td></tr>
+<tr><td>瀏覽方式</td><td>同一個地方可切換陳列、網格、條列</td><td>表格或文字</td></tr>
+<tr><td>找東西</td><td>問吉祥物小燈「護照在哪」，打字或用說的</td><td>搜尋關鍵字</td></tr>
+<tr><td>價格與帳號</td><td>免費下載，免帳號；免費版有橫幅廣告、可建 3 個地方</td><td>看你用哪一套</td></tr>
+</tbody></table>
+<p>如果你只想記十幾樣東西、也習慣打字，試算表就夠了。深藏適合想把冰箱、儲藏間、書架、收藏一起管，又不想每樣都打字的人。</p></section>
+
+<section id="part-2"><h2>2. 買菜回家：拍照、掃條碼、連續掃描</h2>
+<p>對著東西按快門，照片會自動去掉背景存好。去背是用 iPhone 內建的影像辨識在手機上做，不用上傳照片。同一個相機畫面也會自動找條碼：</p>
+<ul>
+<li><b>食品：</b>查 Open Food Facts，這是志工一起建的開放食品資料庫。</li>
+<li><b>書：</b>用 ISBN 先查 Open Library，再查 Google Books。</li>
+<li><b>查不到的：</b>自己取一次名字，下次掃到同一個條碼就會帶出你取的名字。</li>
+</ul>
+<p>提著一袋菜回家時，長按下方的相機鍵選「連續掃描（一次入庫多件）」，或在拍照畫面切到「連續掃描」，一件一件掃過去，最後一次確認。網購的東西也可以從相簿或截圖選，裁好範圍後一樣去背。</p>
+<figure class="blog-illus"><img src="/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/fridge-scan.webp" alt="安康魚吉祥物抱著一袋剛買的蔬菜和牛奶，在冰箱前一樣一樣放進去" width="600" height="400" loading="lazy" decoding="async"></figure>
+<p>存好之後，每個地方可以用三種方式看：</p>
+<ul>
+<li><b>陳列：</b>照片擺在冰箱、點格紙或軟木板的底圖上，可以拖曳、縮放，記得哪一層放了什麼。</li>
+<li><b>網格：</b>整齊排列，適合找東西，可以多選一起移動或標成用完。</li>
+<li><b>條列：</b>適合盤點，數量直接按加減；往左滑是「用完」，往右滑可以移動或補貨。</li>
+</ul>
+<p>首頁只列今天要處理的事：過期、快到期、快用完的東西。暫時不想處理可以選「明天再提醒」。</p></section>
+
+<section id="part-3"><h2>3. 包裝上的到期日：西元、民國、佛曆都認得</h2>
+<p>拍照後，深藏會在手機上辨識包裝上的文字，從裡面找日期。認得的寫法有：</p>
+<ul>
+<li>西元年月日，例如 <code>2026.12.01</code>、<code>2026年12月1日</code>、<code>20261201</code></li>
+<li>兩位數年份，例如 <code>26.12.01</code></li>
+<li>民國年，例如 <code>115.12.01</code>，台灣超商常見的印法</li>
+<li>佛曆年（泰國包裝的 25xx 年），會自動換成西元</li>
+<li>日／月／年的順序，例如 <code>01/12/2026</code></li>
+</ul>
+<p>讀到的日期會標「請確認」，存檔前可以改。包裝上同時印了製造日和到期日時，深藏會取比較晚的那個，所以存之前看一眼最保險。只印年和月、沒有日的日期目前讀不到，要自己填。</p>
+<p>提醒的天數和時間在「首頁右上角 ⚙︎ 設定 › 到期提醒」調整：到期前 1 到 30 天，時間可以選早上、中午或晚上。</p>
+<figure class="blog-illus"><img src="/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/expiry-date.webp" alt="安康魚吉祥物用頭上的小燈照著一盒牛奶的包裝，仔細看上面的日期" width="600" height="400" loading="lazy" decoding="async"></figure></section>
+
+<section id="part-4"><h2>4. 不只冰箱：800庫、地方裡的地方、物品的回憶</h2>
+<p>新增地方時有八個範本：冰箱、800庫、儲藏櫃、書架、衣櫃、收藏櫃、藥箱、搬家箱。800庫是玄關或走道旁大約 80 公分深、可以走進去的儲物間，放日用品、行李箱和季節用品。沒有合適的範本，就自己選圖示、取名稱。</p>
+<ul>
+<li><b>分組：</b>可以分「台北的家」「三樓」，不分也行，預設只有一層。</li>
+<li><b>地方裡還有地方：</b>「衣物」裡面可以再放「衣服」「褲子」「鞋子」。用選單的「移進…」搬，或長按拖到另一張卡上。</li>
+<li><b>依分類問該問的事：</b>食物問到期與保存方式，衣物問尺寸與季節，3C 問型號與保固。</li>
+</ul>
+<p>旅行帶回來的杯子、朋友送的禮物，可以在物品頁寫回憶，加照片、日期和地點，再收成合集，例如「京都 2024」。一年後的同一天，首頁會出現「去年今天」。</p></section>
+
+<section id="part-5"><h2>5. 找不到東西時，問小燈</h2>
+<p>小燈是深藏的吉祥物，一隻頭上有小燈的安康魚。出門前找不到護照或三號電池，在首頁最上面的輸入列打字，或按麥克風用說的：「護照在哪？」「牛奶還有嗎？」小燈會回答放在哪個地方、還剩多少、幾天後到期。</p>
+<p>沒開 AI 也能用：深藏會用名稱、分類和地方找。語音辨識在手機支援時直接在手機上做，不上網。</p>
+<p>AI 是可選的，在「設定 › AI」打開，有兩種來源：</p>
+<ul>
+<li><b>Apple 內建：</b>用 iPhone 上的 Apple Intelligence，免費、資料不離開手機。需要支援的 iPhone 與 iOS 26 以上。它看不到照片，所以命名時用的是手機辨識出的影像標籤和包裝文字。</li>
+<li><b>自己的 API key：</b>Gemini、Claude、DeepSeek 等。key 只存在這支 iPhone 的鑰匙圈，資料直接送到你選的服務，不經過我。這種可以直接看照片幫你命名。</li>
+</ul>
+<p>開了 AI 之後，可以幫你命名、整理包裝文字、看看冰箱裡哪些該先吃（藥箱只提醒過期，不給醫療建議）、用一句話找東西時多想同義詞，也可以把你打的幾個字整理成一段回憶。小燈每天在首頁說的那段話和建議問題，開了 AI 也會由 AI 產生。</p>
+<figure class="blog-illus"><img src="/deepstash/assets/blog/home-inventory-fridge-expiry-tracker-iphone/ask-lumi.webp" alt="安康魚吉祥物在儲物間裡用頭上的小燈照亮一排收納箱，找到藏在角落的一盒電池" width="600" height="400" loading="lazy" decoding="async"></figure></section>
+
+<section id="part-6"><h2>6. 目前的限制</h2>
+<p>把整個家建進去之前，先知道這幾件事：</p>
+<ol>
+<li><b>沒有 iCloud 同步，也不能和家人共用。</b>資料只在你這支 iPhone 的 App 裡，iPhone 備份時會一起備份；也可以在設定匯出 CSV。刪掉的東西 30 天內可以從「最近刪除」救回。</li>
+<li><b>條碼資料庫不一定查得到。</b>我自己實測時，Open Food Facts 查得到國際商品和部分台灣商品，但多數台灣商品查不到。生鮮蔬果、散裝食品沒有條碼，第一次都要自己取名。</li>
+<li><b>去背看照片。</b>背景太亂、或主體和背景顏色太接近時，可能切不乾淨；失敗時會先用原照片存好。</li>
+<li><b>免費版有廣告和數量限制。</b>免費版可以建 3 個最上層的地方（分區、分組不算），只能打開最近 2 則小燈對話，首頁、空間、搜尋下方有一條 Google 橫幅廣告。廣告一律是非個人化廣告，不會詢問追蹤權限，但 Google 為了放送廣告會收到裝置與大概位置等資料，細節在<a href="/deepstash/zh-Hant/privacy/">隱私權政策</a>。深藏 Pro 地方不限、對話紀錄不限、沒有廣告：每週 US$1、每月 US$3，或買斷 US$5（美國價格，其他地區以 App Store 顯示為準）。</li>
+</ol>
+<p>想試的話，先建一個「冰箱」，拍下最常忘在角落的三樣東西，看看到期提醒和左滑用完的節奏合不合你的習慣。需要 iOS 18 以上的 iPhone，介面有繁中、簡中、日、韓、泰、英六種語言。</p></section>
+
+<section id="part-7"><h2>7. 常見問題</h2>
+<div class="blog-faq">
+<h3>深藏要註冊帳號嗎？資料存在哪？</h3><p>不用帳號。物品、照片和回憶都存在你 iPhone 的 App 裡，我這邊沒有伺服器，看不到你的資料。掃條碼時只會把條碼號碼送到 Open Food Facts、Open Library 或 Google Books 查名稱。</p>
+<h3>到期日讀錯了怎麼辦？</h3><p>讀到的日期會標「請確認」，存檔前可以直接改。包裝上有兩個日期時會取比較晚的那個，只印年月沒有日的要自己填。</p>
+<h3>不開 AI 能用嗎？</h3><p>可以。拍照去背、條碼、到期日、三種看法、問小燈找東西都不需要 AI。開了 AI 會多出命名、看看這個空間、同義詞搜尋和寫回憶這些功能。</p>
+<h3>可以跟家人一起管同一個冰箱嗎？</h3><p>目前不行。深藏還沒有 iCloud 同步與家人共用，資料只在一支 iPhone 上。</p>
+<h3>什麼時候可以下載？</h3><p>深藏目前在 App Store 審核中，即將上架。上架後可以從深藏官網直接前往 App Store。</p>
+</div></section></article><aside class="cta"><h2>試試深藏</h2><p>iPhone · 即將在 App Store 上架</p><a class="button" href="https://apps.apple.com/app/id6833244834">前往 App Store</a></aside><p><a href="/deepstash/zh-Hant/blog/">← 返回文章列表</a></p></main>
+<footer><span>© Sona Orbit</span><a href="/deepstash/zh-Hant/">首頁</a><a href="/deepstash/zh-Hant/blog/">文章</a><a href="/deepstash/zh-Hant/privacy/">隱私權</a><a href="/deepstash/zh-Hant/support/">支援</a><a href="https://sona-orbit.github.io/">Sona Orbit</a></footer>
+</body></html>
