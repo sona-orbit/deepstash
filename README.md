@@ -6,4 +6,4 @@ Served by GitHub Pages at https://sona-orbit.github.io/deepstash/
 
 - Home, support and privacy pages in English, 繁體中文, 简体中文, 日本語, 한국어 and ไทย
 - Static HTML and CSS; scripts are Google Analytics and a small inline video player. No build step on this repository
-- Contact: sona.orbit.hi@gmail.com
+- Published by Sona Orbit. Issues and pull requests are turned off.
