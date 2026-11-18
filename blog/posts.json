@@ -18,6 +18,26 @@
     "title": "iPhone Home Inventory and Fridge Expiration Tracker",
     "desc": "Meet Stashlight, an iPhone app I made to track what you have, where it is, how much is left, and when it expires. No account needed.",
     "hero_alt": "A round red-orange anglerfish mascot stands in front of an open fridge, lighting up the food on its shelves"
+   },
+   "es": {
+    "title": "Inventario del hogar y caducidad de la nevera en iPhone",
+    "desc": "Descubre Stashlight, una app para iPhone que registra qué tienes, dónde está, cuánto queda y cuándo caduca. Sin cuentas.",
+    "hero_alt": "Mascota con forma de pez rape redondo de color rojo anaranjado frente a un frigorífico abierto, iluminando los alimentos de los estantes"
+   },
+   "de": {
+    "title": "Haushaltsinventar & Kühlschrank-MHD-Tracker fürs iPhone",
+    "desc": "Stashlight ist eine iPhone-App von mir, die erfasst, was du hast, wo es liegt, wie viel übrig ist und wann es abläuft. Ganz ohne Konto.",
+    "hero_alt": "Ein rundes, rot-oranges Anglerfisch-Maskottchen steht vor einem offenen Kühlschrank und leuchtet die Lebensmittel in den Fächern an"
+   },
+   "fr": {
+    "title": "Inventaire maison et dates de péremption du frigo sur iPhone",
+    "desc": "Découvrez Stashlight, mon app iPhone pour suivre vos objets, leur emplacement, leur quantité et leur date de péremption. Sans compte.",
+    "hero_alt": "Une mascotte ronde de baudroie rouge orangé se tient devant un réfrigérateur ouvert et éclaire les aliments sur les étagères"
+   },
+   "pt-BR": {
+    "title": "Inventário doméstico e validade da geladeira no iPhone",
+    "desc": "Conheça o Stashlight, app para iPhone que criei para registrar o que você tem, onde está, quanto resta e quando vence. Sem precisar de conta.",
+    "hero_alt": "Mascote redondo em formato de peixe-pescador vermelho-alaranjado em frente a uma geladeira aberta, iluminando os alimentos nas prateleiras"
    }
   }
  }
