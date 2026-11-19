@@ -1,5 +1,47 @@
 [
  {
+  "slug": "moving-boxes-seasonal-storage-iphone",
+  "date": "2026-11-19",
+  "run": "/Users/johnkeng/Works/自製 Apple APP/官網SEO/部落格/deepstash/runs/2026-11-19-moving-boxes-seasonal-storage-iphone",
+  "langs": {
+   "zh-Hant": {
+    "title": "搬家裝箱與換季收納怎麼記：用 iPhone 拍照整理紙箱和儲藏間",
+    "desc": "封箱三個月後，找一條延長線要拆好幾箱？比較 QR 碼標籤、備忘錄試算表、拍照分層三種記法，介紹我做的 iPhone App「深藏」怎麼記搬家箱與換季儲藏間，以及目前的限制。",
+    "hero_alt": "圓圓的紅橘色安康魚吉祥物飄在一疊搬家紙箱旁，頭上的小燈照著打開的箱子"
+   },
+   "zh-Hans": {
+    "title": "搬家装箱与换季收纳怎么记：用 iPhone 拍照整理纸箱和储藏间",
+    "desc": "封箱三个月后，找一条延长线要拆好几箱？比较 QR 码标签、备忘录电子表格、拍照分层三种记法，介绍我做的 iPhone App“深藏”怎么记搬家箱与换季储藏间，以及目前的限制。",
+    "hero_alt": "圆圆的红橘色安康鱼吉祥物飘在一叠搬家纸箱旁，头上的小灯照着打开的箱子"
+   },
+   "en": {
+    "title": "How to Track Moving Boxes and Seasonal Storage on iPhone",
+    "desc": "Compare QR labels, lists, and photos for tracking moving boxes. See how I use Stashlight to find stored things, and where the app falls short.",
+    "hero_alt": "A round red-orange anglerfish mascot floats beside a stack of moving boxes, its small lantern lighting up an open box"
+   },
+   "es": {
+    "title": "Cómo organizar cajas de mudanza y guardar ropa en iPhone",
+    "desc": "Compara códigos QR, listas y fotos para organizar cajas de mudanza. Te cuento cómo uso Stashlight para encontrar lo que guardo y cuáles son sus límites.",
+    "hero_alt": "Una mascota redonda con forma de pez pescador rojo anaranjado flota junto a una pila de cajas de mudanza; su pequeña luz ilumina una caja abierta"
+   },
+   "de": {
+    "title": "Umzugskartons und eingelagerte Sachen auf dem iPhone finden",
+    "desc": "QR-Etiketten, Listen oder Fotos für Umzugskartons? So nutze ich Stashlight, um eingelagerte Dinge zu finden – und das sind die Grenzen der App.",
+    "hero_alt": "Ein rundes, rot-orangefarbenes Anglerfisch-Maskottchen schwebt neben einem Stapel Umzugskartons und beleuchtet mit seiner kleinen Laterne einen offenen Karton"
+   },
+   "fr": {
+    "title": "Comment retrouver ses cartons et rangements sur iPhone",
+    "desc": "Étiquettes QR, listes ou photos : comparez trois façons de suivre vos cartons. Voici comment j’utilise Stashlight, et ce que l’app ne fait pas.",
+    "hero_alt": "Une mascotte baudroie ronde, rouge orangé, flotte près d’une pile de cartons de déménagement et éclaire un carton ouvert avec sa petite lanterne"
+   },
+   "pt-BR": {
+    "title": "Como organizar caixas de mudança e itens guardados no iPhone",
+    "desc": "Compare etiquetas QR, listas e fotos para organizar caixas de mudança. Veja como uso o Stashlight para encontrar o que guardei e quais são seus limites.",
+    "hero_alt": "Uma mascote redonda, um peixe-pescador vermelho-alaranjado, flutua ao lado de uma pilha de caixas de mudança e ilumina uma caixa aberta com sua pequena lanterna"
+   }
+  }
+ },
+ {
   "slug": "home-inventory-fridge-expiry-tracker-iphone",
   "date": "2026-11-14",
   "run": "/Users/johnkeng/Works/自製 Apple APP/官網SEO/部落格/deepstash/runs/2026-11-14-home-inventory-fridge-expiry-tracker-iphone",
